@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    /*color: #01388A;*/
+    background: #01388A;
+    font-family: 'Sansation';
+    display: flex;
+    flex-direction: column;
+    flex-flow: wrap;
+}
+
+.container {
+	display: inline-block;
+    width: 600px;
+    /*margin-left: 50px;
+    margin-top: 25px;*/
+    text-align: center;
+    border: 1px solid #C7C7C7;
+    vertical-align: middle;
+}
+
+.form {
+    width: 95vw;
+    /*height: 2156px;*/
+    height: 250vh;
+    border: 1px solid #C7C7C7;
+    margin: 5vh;
+    /*margin-left: 5vw;
+    margin-right: 5vh;
+    margin-top: 1vh;
+    margin-bottom: 1vh;*/
+}
+
+.form_access {
+    color: white;
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    text-decoration: none;
+}
